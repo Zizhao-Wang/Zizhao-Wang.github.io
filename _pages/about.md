@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a third-year graduate student from [ShenZhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/), [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/).
 
-I am very fortunately advised by [Prof. Meng Jintao](http://210.75.252.46/jintao/) of [Center for High-Performance Computing](https://hpcc.siat.ac.cn/) from [Institute of Advanced Computing and Digital Engineering](http://english.siat.cas.cn/SI2017/IACDE2017/), SIAT. 
+I am very fortunately advised by [Prof. Meng Jintao](http://210.75.252.46/jintao/) of [Center for High-Performance Computing](https://hpcc.siat.ac.cn/) and [Prof. Wang Yang](https://people.ucas.edu.cn/~yangwang) of [Center for Cloud Computing](http://cloud.siat.ac.cn/cloud/) from [Institute of Advanced Computing and Digital Engineering](http://english.siat.cas.cn/SI2017/IACDE2017/) in SIAT. 
 
 A data-driven personal website
 ======
