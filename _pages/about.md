@@ -23,3 +23,5 @@ Latest News
 
 Selected Publications
 --------
+**2024**
+- [WISE'2024] "REXIO: An Indexing for Low Write Amplification by Reducing Extra I/Os in Read/Write Heavy Workloads", *Zizhao Wang*, International Web Information Systems Engineering conference (WISE), 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/REXIO)
