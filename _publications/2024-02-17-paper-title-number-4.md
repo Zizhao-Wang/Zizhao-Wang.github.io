@@ -3,7 +3,7 @@ title: "REXIO: An Indexing for Low Write Amplification by Reducing Extra I/Os in
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'This paper proposed REXIO, an indexing mechanism for organizing key-value (KV) items in KV store to achieve lowest write amplification under read/write mixed workload.'
 date: 2024-12-2
 venue: 'International Web Information Systems Engineering conference (WISE)'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
