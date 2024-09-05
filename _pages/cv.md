@@ -29,7 +29,6 @@ Work experience
 
 
 Publications
-
 ======
 
   <ul>{% for post in site.publications reversed %}
