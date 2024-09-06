@@ -13,9 +13,15 @@ I'm currently a third-year graduate student from [ShenZhen Institute of Advanced
 
 Research Interests
 ======
-- **NoSQL Data Management Systems**: Specializing in LSM-based Key-Value (KV) stores, fundamental for scalable and efficient non-relational databases.
-- **Modern Hardware Utilization in Databases**: Focus on integrating and optimizing cutting-edge hardware technologies, such as NVMe SSDs and persistent memory, to enhance file system performance for SQL and NoSQL databases.
 
+- **Data-driven Database Tuning**: Utilizing stochastic planning or machine learning (ML) techniques to dynamically tune data structures (e.g., B<sup>+</sup>-trees, LSM-trees) in response to varying workload patterns, ensuring optimal performance across diverse read/write scenarios.
+
+- **NoSQL Data Management Systems**: Focusing on optimizing the storage layer of NoSQL databases, including Key-Value (KV) stores, Graph databases (DBs), and Document DBs, while developing new data structures to improve read/write performance and scalability.
+
+- **Modern Hardware Acceleration**: Focusing on integrating and optimizing cutting-edge hardware technologies, such as NVMe SSDs, persistent memory, and Zone-namespace SSDs, to enhance performance in two key areas:
+    - **File System Expansion**: Expanding the capabilities of current general file systems (e.g., EXT4) to better support high-performance applications (e.g., KV stores, RDBs).
+    - **Native Storage-Level Optimization**: Implementing application-specific (e.eg., KV store) optimizations directly on native storage. Read more about this in our [WISE' 24](#wise2024) papers.
+  
 Latest News
 ======
 - **August 2024** - Our paper titled "REXIO: An Indexing for Low Write Amplification by Reducing Extra I/Os in Mixed Read/Write Workloads" has been accepted by the International Web Information Systems Engineering conference (WISE 2024).
@@ -24,4 +30,4 @@ Latest News
 Selected Publications
 ======
 **2024**
-1. **[WISE'2024]** "REXIO: An Indexing for Low Write Amplification by Reducing Extra I/Os in Read/Write Heavy Workloads", **Zizhao Wang**, International Web Information Systems Engineering conference, main Track (WISE main), 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/REXIO)
+1.  <a name="wise2024"></a> **[WISE'2024]** "REXIO: An Indexing for Low Write Amplification by Reducing Extra I/Os in Read/Write Heavy Workloads", **Zizhao Wang**, International Web Information Systems Engineering conference, main Track (WISE main), 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/REXIO)
