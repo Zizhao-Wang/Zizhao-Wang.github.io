@@ -20,7 +20,7 @@ Research Interests
 
 - **Modern Hardware Acceleration**: Focusing on integrating and optimizing cutting-edge hardware technologies, such as NVMe SSDs, persistent memory, and Zone-namespace SSDs, to enhance performance in two key areas:
     - **File System Expansion**: Expanding the capabilities of current general file systems (e.g., EXT4) to better support high-performance applications (e.g., KV stores, RDBs).
-    - **Native Storage-Level Optimization**: Implementing application-specific (e.eg., KV store) optimizations directly on native storage. Read more about this in our [WISE' 24](#wise2024) papers.
+    - **Native Storage-Level Optimization**: Implementing application-specific (e.eg., KV store) optimizations directly on native storage. Read more in [WISE' 24](#wise2024).
   
 Latest News
 ======
