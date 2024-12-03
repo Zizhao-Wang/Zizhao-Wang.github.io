@@ -35,4 +35,4 @@ Latest News
 **2024**
 
 1.  <a name="wise2024"></a> **[WISE'2024]** "REXIO: Indexing for Low Write Amplification by Reducing Extra I/Os in Key-Value Store under Mixed Read/Write Workloads", **Zizhao Wang**,Jintao Meng<sup>*</sup>,Nan Han,Zhelang Deng,Yizhuo Ma,Xiaowen Huang, International Web Information Systems Engineering conference, main Track (WISE main), 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/REXIO)
-1.  <a name="wise2024"></a> "Low Unleashes More: Separating low-Access Data for Optimal Read/Write in LSM-based Key-Value Stores", **Zizhao Wang**,Jintao Meng<sup>*</sup>,Nan Han,Zhelang Deng,Yizhuo Ma,Xiaowen Huang, 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/LuMDB)
+1.  <a name="wise2024"></a> "Low Unleashes More: Separating low-Access Data for Optimal Read/Write in LSM-based Key-Value Stores", **Zizhao Wang**, 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/LuMDB)
