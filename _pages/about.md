@@ -21,7 +21,7 @@ Research Interests
 
 - **Modern Hardware Acceleration**: Focusing on leveraging (not based) cutting-edge hardware technologies, such as NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, while enhancing performance in two key areas:
     - **File System Expansion**: Expanding the capabilities of current general file systems (e.g., EXT4) to support better high-performance applications (e.g., KV stores, RDBs).
-    - **Native Storage-Level Optimization**: Implementing application-specific (e.eg., KV store) optimizations directly on native storage. Read more in [WISE'24](#wise2024).
+    - **Native Storage-Level Optimization**: Implementing application-specific (e.eg., KV store) optimizations directly on native storage. Read more in [REXIO](#wise2024).
 
 Latest News
 ======
@@ -33,5 +33,5 @@ Latest News
 
 **2024**
 
-1.  <a name="wise2024"></a> **[WISE'2024]** "REXIO: Indexing for Low Write Amplification by Reducing Extra I/Os in Key-Value Store under Mixed Read/Write Workloads", **Zizhao Wang**,Jintao Meng<sup>*</sup>,Nan Han,Zhelang Deng,Yizhuo Ma,Xiaowen Huang, International Web Information Systems Engineering conference, main Track (WISE main), 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/REXIO)
+1.  <a name="wise2024"></a> "REXIO: Indexing for Low Write Amplification by Reducing Extra I/Os in Key-Value Store under Mixed Read/Write Workloads", **Zizhao Wang**,Jintao Meng<sup>*</sup>,Nan Han,Zhelang Deng,Yizhuo Ma,Xiaowen Huang, International Web Information Systems Engineering conference, main Track (WISE main), 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/REXIO)
 1.  <a name="wise2024"></a> "Low Unleashes More: Separating low-Access Data for Optimal Read/Write in LSM-based Key-Value Stores", **Zizhao Wang**, 2024. [PDF](#) [Code](https://github.com/Zizhao-Wang/LuMDB)
