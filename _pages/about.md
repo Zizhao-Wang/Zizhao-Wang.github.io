@@ -28,7 +28,7 @@ Latest News
 - **August 2024** - Our paper titled "REXIO: An Indexing for Low Write Amplification by Reducing Extra I/Os in Mixed Read/Write Workloads" has been accepted by the International Web Information Systems Engineering conference (WISE 2024).
 
 
-# Selected Publications
+Selected Publications
 ======
 
 **2024**
