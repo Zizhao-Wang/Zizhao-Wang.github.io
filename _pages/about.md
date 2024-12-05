@@ -23,13 +23,6 @@ Research Interests
     - **File System Expansion**: Expanding the capabilities of current general file systems (e.g., EXT4) to support better high-performance applications (e.g., KV stores, RDBs).
     - **Native Storage-Level Optimization**: Implementing application-specific (e.eg., KV store) optimizations directly on native storage. Read more in [REXIO](#wise2024).
 
-[//]: # (Latest News)
-
-[//]: # (======)
-
-[//]: # (- **August 2024** - Our paper titled "REXIO: An Indexing for Low Write Amplification by Reducing Extra I/Os in Mixed Read/Write Workloads" has been accepted by the International Web Information Systems Engineering conference &#40;WISE 2024&#41;.)
-
-
 Selected Publications
 ======
 
