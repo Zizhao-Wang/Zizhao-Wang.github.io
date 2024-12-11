@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zizhao Wang (王子钊)"
+title                    : "Zizhao Wang"
 title_separator          : "-"
 name                     : &name "Zizhao Wang"
 description              : &description "Research is my lifelong goal!"
