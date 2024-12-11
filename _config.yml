@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Zizhao Wang"
 title_separator          : "-"
-name                     : &name "Zizhao Wang (王子钊)"
+name                     : &name "Zizhao Wang"
 description              : &description "Research is my lifelong goal!"
 url                      : https://zizhao-wang.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "Zizhao-Wang/Zizhao-Wang.github.io"
 author:
   # Biographic information
   avatar           : "wzz.png"
-  name             : "Zizhao Wang"
+  name             : "Zizhao Wang (王子钊)"
   pronouns         : # example: "she/her"  
   bio              : "Research is my lifelong goal!"
   location         : "Shenzhen"
