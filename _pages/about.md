@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zizhao-Wang's HomePage"
+title: "Zizhao Wang (王子钊)"
 author_profile: true
 redirect_from: 
   - /about/
