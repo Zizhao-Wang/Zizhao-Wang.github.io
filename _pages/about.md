@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zizhao Wang (王子钊)"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
