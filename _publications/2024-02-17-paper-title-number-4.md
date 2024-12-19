@@ -1,7 +1,7 @@
 ---
 title: "Paper Title Number 4"
 collection: publications
-category: conferences
+category: conferences1
 permalink: /publication/2024-02-17-paper-title-number-4.md
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-02-17
