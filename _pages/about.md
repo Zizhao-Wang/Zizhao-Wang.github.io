@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 ---
-I'm currently a third-year graduate student from [ShenZhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/), affiliated with the [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/). I am very fortunate to be advised by [Prof. Meng Jintao](http://210.75.252.46/jintao/) of [Center for High-Performance Computing](https://hpcc.siat.ac.cn/) and [Prof. Wang Yang](https://people.ucas.edu.cn/~yangwang) of [Center for Cloud Computing](http://cloud.siat.ac.cn/cloud/) from [Institute of Advanced Computing and Digital Engineering](http://english.siat.cas.cn/SI2017/IACDE2017/) in SIAT. Additionally, I am collaborating with [Prof. Dr.-Ing. André Brinkmann](https://research.zdv.uni-mainz.de/people/andre-brinkmann/) at Johannes Gutenberg - Universität Mainz.
-
+I'm currently a third-year graduate student at the [ShenZhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/), affiliated with the [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/). I am advised by [Prof. Meng Jintao](http://210.75.252.46/jintao/)and [Prof. Wang Yang](https://people.ucas.edu.cn/~yangwang) in SIAT. My primary research collaborations are with [Prof. Dr.-Ing. André Brinkmann](https://research.zdv.uni-mainz.de/people/andre-brinkmann/) at Johannes Gutenberg - Universität Mainz. Together, we have been working on a combination of computer systems and databases, especially for key-value store optimization.
 **I am currently looking forward to a PhD position.**
 
 Research Interests
