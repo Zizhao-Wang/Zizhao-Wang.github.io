@@ -1,7 +1,7 @@
 ---
 title: 'The Nature of Compaction in LSM'
-date: 2024-12-20
-permalink: /posts/2024/12/The-Nature-of-Compaction-in-LSM/
+date: 2024-12-21
+permalink: /posts/2024/12/Why-LSM/
 tags:
   - cool posts
   - category1
