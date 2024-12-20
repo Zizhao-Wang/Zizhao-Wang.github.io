@@ -4,7 +4,7 @@ date: 2024-12-21
 permalink: /posts/2024/12/Why-LSM/
 tags:
   - cool posts
-  - category1
+  - LSM-series
   - category2
 ---
 
