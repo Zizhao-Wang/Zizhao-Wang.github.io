@@ -19,7 +19,7 @@ Research Interests
     <img src="../images/figure1.png" alt="Data-driven Database Tuning" style="width: 40%; margin-right: 20px; border-radius: 8px;">
     <div>
         <h3>Data-driven Database Tuning</h3>
-        <p>Utilizing stochastic planning, machine learning (ML), or LLM to dynamically tune data structures (e.g., B<sup>+</sup>-trees, LSM-trees) in response to varying workload patterns, ensuring optimal performance across diverse read/write scenarios.</p>
+        <p>Utilizing stochastic planning, machine learning (ML), or LLM to auto-tune data structures (e.g., B<sup>+</sup>-trees, LSM-trees) to ensure optimal performance across diverse read/write workloads.</p>
     </div>
 </div>
 
