@@ -23,9 +23,17 @@ Research Interests
         margin-bottom: 30px;
     }
 
+    .responsive-container:nth-child(odd) {
+        flex-direction: row-reverse; /* 奇数段落：图片在右，文字在左 */
+    }
+
+    .responsive-container:nth-child(even) {
+        flex-direction: row; /* 偶数段落：图片在左，文字在右 */
+    }
+
     .responsive-container img {
         width: 40%;
-        margin-right: 20px;
+        margin: 0 20px;
         border-radius: 8px;
     }
 
@@ -51,7 +59,6 @@ Research Interests
         }
     }
 </style>
-
 
 <div class="responsive-container">
     <div>
