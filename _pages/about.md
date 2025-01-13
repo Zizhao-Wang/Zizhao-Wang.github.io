@@ -15,13 +15,33 @@ I'm currently a third-year graduate student at the [ShenZhen Institute of Advanc
 Research Interests
 ======
 
-- **Data-driven Database Tuning**: Utilizing stochastic planning, machine learning (ML), or LLM to dynamically tune data structures (e.g., B<sup>+</sup>-trees, LSM-trees) in response to varying workload patterns, ensuring optimal performance across the diverse read/write scenarios.
+<div style="display: flex; align-items: center; margin-bottom: 30px;">
+    <img src="../images/figure1.png" alt="Data-driven Database Tuning" style="width: 40%; margin-right: 20px; border-radius: 8px;">
+    <div>
+        <h3>Data-driven Database Tuning</h3>
+        <p>Utilizing stochastic planning, machine learning (ML), or LLM to dynamically tune data structures (e.g., B<sup>+</sup>-trees, LSM-trees) in response to varying workload patterns, ensuring optimal performance across diverse read/write scenarios.</p>
+    </div>
+</div>
 
-- **NoSQL Data Management Systems**: Focusing on optimizing the storage layer of NoSQL databases, including Key-Value (KV) stores, Graph databases (DBs), and Document DBs, while developing new data structures (e.g., new LSM-like data structures) to improve read/write performance and scalability. [LuMDB](#vldb2025).
+<div style="display: flex; align-items: center; margin-bottom: 30px;">
+    <div style="margin-right: 20px;">
+        <h3>NoSQL Data Management Systems</h3>
+        <p>Focusing on optimizing the storage layer of NoSQL databases, including Key-Value (KV) stores, Graph databases (DBs), and Document DBs, while developing new data structures (e.g., new LSM-like data structures) to improve read/write performance and scalability. <a href="#vldb2025">LuMDB</a>.</p>
+    </div>
+    <img src="../images/figure1.png" alt="NoSQL Data Management Systems" style="width: 40%; border-radius: 8px;">
+</div>
 
-- **Modern Hardware Acceleration**: Focusing on leveraging (not based) cutting-edge hardware technologies, such as NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, while enhancing performance in two key areas:
-    - **File System Expansion**: Expanding the capabilities of current general file systems (e.g., EXT4) to support better high-performance applications (e.g., KV stores, RDBs).
-    - **Native Storage-Level Optimization**: Implementing application-specific (e.eg., KV store) optimizations directly on native storage. Read more in [REXIO](#wise2024).
+<div style="display: flex; align-items: center; margin-bottom: 30px;">
+    <img src="../images/figure1.png" alt="Modern Hardware Acceleration" style="width: 40%; margin-right: 20px; border-radius: 8px;">
+    <div>
+        <h3>Modern Hardware Acceleration</h3>
+        <p>Focusing on leveraging (not based) cutting-edge hardware technologies, such as NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, while enhancing performance in two key areas:</p>
+        <ul>
+            <li><b>File System Expansion</b>: Expanding the capabilities of current general file systems (e.g., EXT4) to support better high-performance applications (e.g., KV stores, RDBs).</li>
+            <li><b>Native Storage-Level Optimization</b>: Implementing application-specific (e.g., KV store) optimizations directly on native storage. Read more in <a href="#wise2024">REXIO</a>.</li>
+        </ul>
+    </div>
+</div>
 
 Selected Publications
 ======
