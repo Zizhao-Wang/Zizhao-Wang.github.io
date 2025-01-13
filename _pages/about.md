@@ -63,8 +63,6 @@ Research Interests
 </style>
 
 
-
-
 <div class="responsive-container">
     <img src="../images/figure1.png" alt="Data-driven Database Tuning">
     <div>
