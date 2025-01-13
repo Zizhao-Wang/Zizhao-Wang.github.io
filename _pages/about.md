@@ -71,7 +71,7 @@ Research Interests
     <img src="../images/figure1.png" alt="Modern Hardware Acceleration">
     <div>
         <h3>Modern Hardware Acceleration</h3>
-        <p> Leveraging (not based) cutting-edge hardwares, such as NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, while enhancing performance in:</p>
+        <p> Leveraging (not based) cutting-edge hardwares, e.g., NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, while enhancing performance in:</p>
         <ul>
             <li><b>File System Expansion</b>: Expanding the capabilities of file systems (e.g., EXT4) to support better high-performance apps (e.g., KV stores, RDBs).</li>
             <li><b>Native Storage Optimization</b>: Application-specific (e.g., KV store) optimizations on native storage. <a href="#wise2024">REXIO</a>.</li>
