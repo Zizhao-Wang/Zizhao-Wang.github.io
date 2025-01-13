@@ -37,8 +37,8 @@ Research Interests
         <h3>Modern Hardware Acceleration</h3>
         <p> Leveraging (not based) cutting-edge hardwares, such as NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, while enhancing performance in:</p>
         <ul>
-            <li><b>File System Expansion</b>: Expanding the capabilities of current file systems (e.g., EXT4) to support better high-performance applications (e.g., KV stores, RDBs).</li>
-            <li><b>Native Storage Optimization</b>: Implementing application-specific (e.g., KV store) optimizations on native storage. <a href="#wise2024">REXIO</a>.</li>
+            <li><b>File System Expansion</b>: Expanding the capabilities of file systems (e.g., EXT4) to support better high-performance apps (e.g., KV stores, RDBs).</li>
+            <li><b>Native Storage Optimization</b>: Application-specific (e.g., KV store) optimizations on native storage. <a href="#wise2024">REXIO</a>.</li>
         </ul>
     </div>
 </div>
