@@ -23,12 +23,13 @@ Research Interests
         margin-bottom: 30px;
     }
 
+    /* 电脑版：奇数块图片左，偶数块图片右 */
     .responsive-container:nth-child(odd) {
-        flex-direction: row-reverse; /* 奇数段落：图片在右，文字在左 */
+        flex-direction: row; /* 奇数段落：图片在左，文字在右 */
     }
 
     .responsive-container:nth-child(even) {
-        flex-direction: row; /* 偶数段落：图片在左，文字在右 */
+        flex-direction: row-reverse; /* 偶数段落：文字在左，图片在右 */
     }
 
     .responsive-container img {
@@ -44,7 +45,6 @@ Research Interests
     /* 移动端样式：屏幕宽度小于768px时 */
     @media screen and (max-width: 768px) {
         .responsive-container {
-            display: flex;
             flex-direction: column; /* 改为上下布局 */
             text-align: center;
         }
@@ -52,39 +52,37 @@ Research Interests
         .responsive-container img {
             width: 80%; /* 图片宽度调整 */
             margin: 20px auto; /* 图片居中 */
+            order: 1; /* 图片在上 */
         }
 
         .responsive-container div {
             text-align: left; /* 保持文字左对齐 */
-        }
-
-        /* 确保文字 → 图片的顺序 */
-        .responsive-container:nth-child(odd),
-        .responsive-container:nth-child(even) {
-            flex-direction: column; /* 所有段落均为文字 → 图片 */
+            order: 2; /* 文字在下 */
         }
     }
 </style>
 
 
 
+
 <div class="responsive-container">
+    <img src="../images/figure1.png" alt="Data-driven Database Tuning">
     <div>
         <h3>Data-driven Database Tuning</h3>
         <p>Utilizing stochastic planning, machine learning (ML), or LLM to auto-tune data structures (e.g., B<sup>+</sup>-trees, LSM-trees) to ensure optimal performance across diverse read/write workloads.</p>
     </div>
-    <img src="../images/figure1.png" alt="Data-driven Database Tuning">
 </div>
 
 <div class="responsive-container">
+    <img src="../images/figure2.png" alt="NoSQL Data Management Systems" >
     <div>
         <h3>NoSQL Data Management Systems</h3>
         <p>Optimizing the NoSQL databases, including Key-Value (KV) stores, Graph databases (DBs), and Document DBs, while developing new structures (e.g., new LSM-like structures) to improve read/write performance and scalability. <a href="#vldb2025">LuMDB</a>.</p>
     </div>
-    <img src="../images/figure2.png" alt="NoSQL Data Management Systems" >
 </div>
 
 <div class="responsive-container">
+    <img src="../images/figure1.png" alt="Modern Hardware Acceleration">
     <div>
         <h3>Modern Hardware Acceleration</h3>
         <p> Leveraging (not based) cutting-edge hardwares, e.g., NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, to enhance performance in:</p>
@@ -93,7 +91,6 @@ Research Interests
             <li><b>Native Storage Optimization</b>: Application-specific (e.g., KV store) optimizations on native storage. <a href="#wise2024">REXIO</a>.</li>
         </ul>
     </div>
-    <img src="../images/figure1.png" alt="Modern Hardware Acceleration">
 </div>
 
 Selected Publications
