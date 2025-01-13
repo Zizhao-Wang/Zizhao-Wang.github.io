@@ -15,24 +15,60 @@ I'm currently a third-year graduate student at the [ShenZhen Institute of Advanc
 Research Interests
 ======
 
-<div style="display: flex; align-items: center; margin-bottom: 30px;">
-    <img src="../images/figure1.png" alt="Data-driven Database Tuning" style="width: 40%; margin-right: 20px; border-radius: 8px;">
+<style>
+    /* 通用容器样式 */
+    .responsive-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .responsive-container img {
+        width: 40%;
+        margin-right: 20px;
+        border-radius: 8px;
+    }
+
+    .responsive-container div {
+        flex: 1;
+    }
+
+    /* 适配移动端：屏幕宽度小于768px时 */
+    @media screen and (max-width: 768px) {
+        .responsive-container {
+            display: block; /* 单列布局 */
+            text-align: center;
+        }
+
+        .responsive-container img {
+            width: 80%; /* 图片宽度调整 */
+            margin: 0 auto 20px auto; /* 居中显示 */
+        }
+
+        .responsive-container div {
+            text-align: left; /* 保持文字左对齐 */
+        }
+    }
+</style>
+
+<div class="responsive-container">
+    <img src="../images/figure1.png" alt="Data-driven Database Tuning">
     <div>
         <h3>Data-driven Database Tuning</h3>
         <p>Utilizing stochastic planning, machine learning (ML), or LLM to auto-tune data structures (e.g., B<sup>+</sup>-trees, LSM-trees) to ensure optimal performance across diverse read/write workloads.</p>
     </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 30px;">
-    <div style="margin-right: 20px;">
+<div class="responsive-container">
+    <div>
         <h3>NoSQL Data Management Systems</h3>
         <p>Optimizing the NoSQL databases, including Key-Value (KV) stores, Graph databases (DBs), and Document DBs, while developing new structures (e.g., new LSM-like structures) to improve read/write performance and scalability. <a href="#vldb2025">LuMDB</a>.</p>
     </div>
-    <img src="../images/figure1.png" alt="NoSQL Data Management Systems" style="width: 40%; border-radius: 8px;">
+    <img src="../images/figure1.png" alt="NoSQL Data Management Systems" >
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 30px;">
-    <img src="../images/figure1.png" alt="Modern Hardware Acceleration" style="width: 40%; margin-right: 20px; border-radius: 8px;">
+<div class="responsive-container">
+    <img src="../images/figure1.png" alt="Modern Hardware Acceleration">
     <div>
         <h3>Modern Hardware Acceleration</h3>
         <p> Leveraging (not based) cutting-edge hardwares, such as NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, while enhancing performance in:</p>
