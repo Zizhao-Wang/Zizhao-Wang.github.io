@@ -36,13 +36,14 @@ Research Interests
     /* 适配移动端：屏幕宽度小于768px时 */
     @media screen and (max-width: 768px) {
         .responsive-container {
-            display: block; /* 单列布局 */
+            display: flex;
+            flex-direction: column; /* 改为上下布局 */
             text-align: center;
         }
 
         .responsive-container img {
             width: 80%; /* 图片宽度调整 */
-            margin: 0 auto 20px auto; /* 居中显示 */
+            margin: 20px auto; /* 图片居中 */
         }
 
         .responsive-container div {
@@ -50,6 +51,7 @@ Research Interests
         }
     }
 </style>
+
 
 <div class="responsive-container">
     <div>
@@ -68,7 +70,6 @@ Research Interests
 </div>
 
 <div class="responsive-container">
-    <img src="../images/figure1.png" alt="Modern Hardware Acceleration">
     <div>
         <h3>Modern Hardware Acceleration</h3>
         <p> Leveraging (not based) cutting-edge hardwares, e.g., NVMe SSDs, persistent memory (PM), and Zone-namespace (ZNS) SSDs, to enhance performance in:</p>
@@ -77,6 +78,7 @@ Research Interests
             <li><b>Native Storage Optimization</b>: Application-specific (e.g., KV store) optimizations on native storage. <a href="#wise2024">REXIO</a>.</li>
         </ul>
     </div>
+    <img src="../images/figure1.png" alt="Modern Hardware Acceleration">
 </div>
 
 Selected Publications
