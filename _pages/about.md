@@ -23,9 +23,17 @@ Research Interests
         margin-bottom: 30px;
     }
 
+    .responsive-container:nth-child(odd) {
+        flex-direction: row-reverse; /* 奇数段落：图片在右，文字在左 */
+    }
+
+    .responsive-container:nth-child(even) {
+        flex-direction: row; /* 偶数段落：图片在左，文字在右 */
+    }
+
     .responsive-container img {
         width: 40%;
-        margin-right: 20px;
+        margin: 0 20px;
         border-radius: 8px;
     }
 
@@ -33,7 +41,7 @@ Research Interests
         flex: 1;
     }
 
-    /* 适配移动端：屏幕宽度小于768px时 */
+    /* 移动端样式：屏幕宽度小于768px时 */
     @media screen and (max-width: 768px) {
         .responsive-container {
             display: flex;
@@ -49,8 +57,15 @@ Research Interests
         .responsive-container div {
             text-align: left; /* 保持文字左对齐 */
         }
+
+        /* 确保文字 → 图片的顺序 */
+        .responsive-container:nth-child(odd),
+        .responsive-container:nth-child(even) {
+            flex-direction: column; /* 所有段落均为文字 → 图片 */
+        }
     }
 </style>
+
 
 
 <div class="responsive-container">
