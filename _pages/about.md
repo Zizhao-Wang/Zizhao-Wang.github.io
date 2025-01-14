@@ -75,7 +75,7 @@ Research Interests
     <img src="../images/figure2.png" alt="NoSQL Data Management Systems" >
     <div>
         <h3>NoSQL Data Management Systems</h3>
-        <p>Optimizing the NoSQL databases, including Key-Value (KV) stores, Graph databases (DBs), and Document DBs, while developing new structures (e.g., new LSM-like structures) to improve read/write performance and scalability. <a href="#vldb2025">LuMDB</a>.</p>
+        <p>Optimizing the NoSQL databases (DBs), including Key-Value (KV) stores, Graph DBs, and Document DBs, while developing new structures (e.g., new LSM-like structures) to improve read/write performance and scalability. <a href="#vldb2025">LuMDB</a>.</p>
     </div>
 </div>
 
